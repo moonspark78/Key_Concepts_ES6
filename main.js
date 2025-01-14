@@ -1,6 +1,10 @@
 
 
-let a= true;
+
+function getName(name){
+	return name;
+}
+let a= false;
 let b= true;
 
-console.log( a && b);
+console.log( a && getName("Alice jack"));
